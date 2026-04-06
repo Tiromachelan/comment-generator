@@ -3,7 +3,7 @@ import ollama
 from fastmcp import Client
 
 
-MODEL = "qwen3.5"
+MODEL = "gpt-oss"
 
 client = Client("mcp_server.py")
 
