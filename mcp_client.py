@@ -46,7 +46,7 @@ async def chat():
                         tool_call.function.name,
                         dict(tool_call.function.arguments)
                     )
-                    messages.append({
+                    messages.append({ # Add tool result to messages
                         "role": "tool",
                         "content": result.content[0].text,
                     })
