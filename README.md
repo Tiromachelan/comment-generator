@@ -1,2 +1,2 @@
 # comment-generator
-Generates and posts comments supporting a political figure to a website
+This can be used to read an article, and then post a comment relevant to the article.  It works for komonews.com; any other website would requrie a custom comment posting function.
